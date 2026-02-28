@@ -1,16 +1,107 @@
-# mental_wellness_app
+# MindHeal Pro 🧠✨
 
-A new Flutter project.
+A full-stack Flutter mental wellness application built with Firebase.
 
-## Getting Started
+🌐 Live Demo: https://mindheal-pro.web.app
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+MindHeal Pro is a cross-platform mental wellness application designed to help users track mood patterns, maintain journaling habits, and analyze emotional trends over time.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app is deployed to Firebase Hosting and uses Firebase Authentication and Cloud Firestore for backend services.
+
+---
+
+## 🏗️ Architecture
+
+### Frontend
+- Flutter (Material Design)
+- Provider for state management
+- Responsive UI (Web + Desktop)
+
+### Backend
+- Firebase Authentication (Email & Password)
+- Cloud Firestore (NoSQL document database)
+- Firebase Hosting (Production deployment)
+
+### Firestore Structure
+
+Each user’s data is isolated under their unique UID for security and scalability.
+
+---
+
+## 🔐 Authentication
+
+- Email & Password authentication
+- Secure user session management via FirebaseAuth
+- Per-user data isolation using UID-based document paths
+
+---
+
+## 📊 Features
+
+### Mood Tracking
+- Log daily mood using emoji-based selection
+- Store mood value, label, timestamp, and metadata
+- Real-time Firestore persistence
+
+### Mood Insights
+- Average mood calculation
+- Most common mood detection
+- Best day identification
+- Trend analysis (Improving / Declining / Stable)
+
+### Streak System
+- Tracks daily logging consistency
+- Encourages habit formation
+
+### User Experience
+- Clean Material UI
+- Date selection support
+- Responsive layout for Web
+
+---
+
+## 🛠 Tech Stack
+
+- Flutter 3.x
+- Dart 3.x
+- Firebase Core
+- Firebase Authentication
+- Cloud Firestore
+- Provider
+- Shared Preferences
+
+---
+
+## 📦 Installation
+
+1. Clone repository
+2. Run:
+
+---
+
+## 🔒 Security
+
+- Data stored per-user using UID
+- Firestore document-based access structure
+- Firebase Authentication enforced before data operations
+
+---
+
+## 📈 Future Improvements
+
+- Firestore security rule hardening
+- Proper server-side delete operations
+- Analytics integration
+- CI/CD pipeline
+- Enhanced data visualization charts
+
+---
+
+## 👨‍💻 Author
+
+Alakesh Chetia  
+BTech Student | Flutter & Firebase Developer
