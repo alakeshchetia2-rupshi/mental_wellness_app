@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551573133643",
+    "project_id": "mindheal-pro",
+    "storage_bucket": "mindheal-pro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551573133643:android:fa49ace007454dc5bff0ce",
+        "android_client_info": {
+          "package_name": "com.mentalhealth.mental_wellness_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKZsaGTwtQmyNHxNVhtAbyeIEWIynscyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
